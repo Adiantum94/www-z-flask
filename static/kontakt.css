@@ -1,0 +1,65 @@
+.form{
+	margin-top: 20px;
+	width: 1300px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(tlo.png); 
+	padding: 50px 0;  	
+}
+
+form{
+
+background-color: rgb(229,204,201,0.8);
+width: 300px;
+padding: 50px;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 3px 3px 30px 5px rgb(226,114,91, 0.6);
+border-radius: 5px;
+}
+
+input{
+width:300px;
+background-color: #ff8c69;
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 20px;
+padding: 15px 10px;
+margin-top: 10px;
+cursor: pointer;
+letter-spacing: 2px;
+}
+
+input:hover{
+	background-color: rgb(226,114,91);
+
+}
+textarea{
+	width:300px;
+	height:150px;
+	background-color:#f5f5f5;
+	color: rgb(226,114,91);
+	border: 2px solid white;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	}
+
+textarea:focus{
+
+	box-shadow: 0px 0px 10px 2px rgb(226,114,91, 0.6);
+	border: 2px solid rgb(226,114,91, 0.6);
+}
+
+p{
+	text-align: left;
+	line-height: 200%;
+	font-size: 18px;
+	color:white;
+    letter-spacing: 2px;
+}
+

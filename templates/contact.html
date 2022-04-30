@@ -1,0 +1,20 @@
+{% extends "parent.html" %}
+
+{% block head %}<link rel="stylesheet" href="{{ url_for('static', filename='kontakt.css') }}">{% endblock %}
+
+{% block content %}
+<div class= "form">
+	<form action="" method="POST">
+		<h1>Contact me</h1>
+		<p>
+			<strong>Email:</strong> paucik94@gmail.com <br>
+			<strong>Phone:</strong> 605129024
+		</p>	
+		<textarea name="text">
+		</textarea>
+		<br><br>
+        <input type="submit" value="Prześlij">
+
+	</form>
+</div>
+{% endblock %}
